@@ -35,7 +35,7 @@ const NewsCard = ({ news }) => {
 
       {/* Description */}
       <p className=" text-gray-700 mb-4">
-        {news.details.slice(0, 150)}... 
+        {news.details.slice(0, 150)}... <br/>
         <button className="text-yellow-600 font-semibold cursor-pointer">Read More</button>
       </p>
 

@@ -8,7 +8,7 @@ import { Outlet } from "react-router-dom";
 
 const HomeLayout = () => {
   return (
-    <div className="w-11/12 lg:w-3/4 mx-auto font-poppins">
+    <div className="w-11/12 lg:max-w-6xl mx-auto font-poppins">
         {/* Header Section */}
         <header>
             <Header></Header>
